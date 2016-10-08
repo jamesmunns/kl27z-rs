@@ -36,7 +36,4 @@ mod vector_table {
 mod lang_items {
     #[lang = "panic_fmt"]
     extern fn panic_fmt() {}
-
-    #[lang = "eh_personality"]
-    extern fn rust_eh_personality() {}
 }
